@@ -1,0 +1,465 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NHCE|Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <h2 class="logo">NHCE blog</h2>
+
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <!-- <section id="submit" class="list-link current"></section> -->
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#popular-tags" class="list-link">Categories</a>
+                    </li>
+
+                    <!-- <li class="list-item">
+                        <a href="#" class="list-link">Categories</a> -->
+                    </li>
+                    </li>
+                    <li class="list-item">
+                        <a href="#Reviews" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#news" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#Membership" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#Contact" class="list-link">Contact</a>
+                    </li>
+                    <!-- <li class="list-item screen-lg-hidden">
+                        <a href="index.html" class="list-link">Sign in</a>
+                    </li> -->
+                    <li class="list-item screen-lg-hidden">
+                        <a href="index.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+                <!-- 
+                <a href="index.html" class="list-link screen-sm-hidden">Sign in</a> -->
+                <a href="index.html" class="btn sign-up-btn screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Breaking news</span>
+                    </h3>
+                    <span class="headline-description">Chandrayaan-3 is expected to land on the lunar surface around
+                        August 23 after completing a 40-day journey.</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="https://sundayguardianlive.com/wp-content/uploads/2023/01/chandrayan-pti-1.jpg" alt=""
+                        class="article-image">
+                    <span class="article-category">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Aug 15 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Chandrayaan-3</h3>
+
+                    </div>
+                </a>
+
+                <a href="food.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/featured-2.jpg" alt="" class="article-image">
+                    <span class="article-category">Food</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>AUg 15th 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Fine dining</h3>
+
+                    </div>
+                </a>
+
+                <a href="addnew.html" class="article featured-article featured-article-3">
+                    <img src="https://img.freepik.com/free-vector/organic-flat-blog-post-illustration-with-people_23-2148955260.jpg?size=626&ext=jpg"
+                        alt="" class="article-image">
+                    <span class="article-category">NEW</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>MM DD YYYY</span>
+                            <span class="article-data-spacer"></span>
+                            <span>00 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">ADD NEW BLOG+</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+    </section>
+    </div>
+
+    </section>
+
+    <!-- Older posts -->
+    <section id="news"class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="chandrayaan-3.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Chandrayaan-3_Integrated_Module_in_clean-room_03.webp/390px-Chandrayaan-3_Integrated_Module_in_clean-room_03.webp.png"
+                            alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>15 Aug 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Chandrayaan-3 launch</h3>
+                        <p class="article-description">Chandrayaan-3 was launched on 14 July 2023, at 2:35 pm IST as
+                            scheduled, from Satish Dhawan Space Centre Second Launch Pad in Sriharikota, Andhra Pradesh,
+                            India. The spacecraft entered lunar orbit on 5 August 2023.orem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit
+                            voluptatibus.</p>
+                    </div>
+                </a>
+
+                <a href="fitness.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="https://th.bing.com/th/id/OIP.SFPrxgc6R4m2eus0IQiLaAHaE7?pid=ImgDet&w=1095&h=728&rs=1"
+                            alt="" class="article-image">
+
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>15 Aug 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Fitness</h3>
+                        <p class="article-description"> Fitness is crucial for maintaining a healthy lifestyle and
+                            overall well-being. Regular physical
+                            activity offers a myriad of benefits, including improved cardiovascular health, enhanced
+                            mental
+                            clarity, boosted energy levels, and reduced risk of chronic diseases like obesity, diabetes,
+                            and
+                            heart ailments.</p>
+
+                    </div>
+                </a>
+
+                <a href="travel.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/nandi-hills-371584_960_720_20180710112813.jpg"
+                            alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Aug 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Travel</h3>
+                        <p class="article-description">Nandi Hills, a picturesque hill station near Bangalore, beckons
+                            travelers with its breathtaking beauty and serene ambiance. Situated around 60 kilometers
+                            away, it offers a tranquil escape from the city's hustle and bustle. The early morning drive
+                            to Nandi Hills is a favorite among adventure seekers, leading to the hilltop where panoramic
+                            sunrise views cast a spellbinding allure.</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i
+                        class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <!-- <section class="popular-tags section"> -->
+    <section id="popular-tags" class="popular-tags section">
+        <!-- Popular tags code here -->
+    </section>
+
+    <div class="container">
+
+        <h2 class="title section-title" data-name="Popular tags">Categories</h2>
+
+        <div class="popular-tags-container d-grid">
+
+            <a href="#" class="article">
+                <span class="tag-name">Travel</span>
+                <img src="./assets/images/tags/travel-tag.jpg" alt="" class="article-image">
+            </a>
+
+            <a href="#" class="article">
+                <span class="tag-name">Food</span>
+                <img src="./assets/images/tags/food-tag.jpg" alt="" class="article-image">
+            </a>
+
+            <a href="#" class="article">
+                <span class="tag-name">Technology</span>
+                <img src="./assets/images/tags/technology-tag.jpg" alt="" class="article-image">
+            </a>
+
+            <a href="#" class="article">
+                <span class="tag-name">Health</span>
+                <img src="./assets/images/tags/health-tag.jpg" alt="" class="article-image">
+            </a>
+
+            <a href="#" class="article">
+                <span class="tag-name">Nature</span>
+                <img src="./assets/images/tags/nature-tag.jpg" alt="" class="article-image">
+            </a>
+
+            <a href="#" class="article">
+                <span class="tag-name">Fitness</span>
+                <img src="./assets/images/tags/fitness-tag.jpg" alt="" class="article-image">
+            </a>
+
+        </div>
+
+    </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="Reviews" class="newsletter section">
+
+        <div class="container">
+            <!-- 
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2> -->
+
+            <div class="form-container-inner">
+
+                <p class="newsletter-description">Any views from your side for our..</p>
+                <h6 class="title newsletter-title">NHCE blog</h6>
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./sss.html">
+                    <h2 class="logo">NHCE</h2>
+                </a>
+                <p class="company-description">Our blog provides insightful articles, fostering learning, inspiration,
+                    and community engagement across diverse subjects, enriching your knowledge journey.</p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="https://www.instagram.com/" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://www.facebook.com/" class="list-link"><i
+                                class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <section id="Contact" class="list-link"></section>
+                        <a href="#" class="list-link">+911234567890</a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2023 NHCE. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <section id="Membership" class="list-link">
+                            <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
